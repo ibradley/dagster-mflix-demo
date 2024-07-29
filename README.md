@@ -71,7 +71,7 @@ create database if not exists dagster_db;
 create role if not exists dagster_role;
 
 grant usage on warehouse dagster_wh to role dagster_role;
-grant role dagster_role to user jayzern;
+grant role dagster_role to user <USERNAME>;
 grant all on database dagster_db to role dagster_role;
 ```
 
